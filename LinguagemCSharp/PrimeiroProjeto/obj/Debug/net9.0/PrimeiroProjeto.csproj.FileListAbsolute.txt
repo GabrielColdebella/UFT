@@ -1,0 +1,14 @@
+/home/gabe/UFT/LinguagemCSharp/PrimeiroProjeto/bin/Debug/net9.0/PrimeiroProjeto
+/home/gabe/UFT/LinguagemCSharp/PrimeiroProjeto/bin/Debug/net9.0/PrimeiroProjeto.deps.json
+/home/gabe/UFT/LinguagemCSharp/PrimeiroProjeto/bin/Debug/net9.0/PrimeiroProjeto.runtimeconfig.json
+/home/gabe/UFT/LinguagemCSharp/PrimeiroProjeto/bin/Debug/net9.0/PrimeiroProjeto.dll
+/home/gabe/UFT/LinguagemCSharp/PrimeiroProjeto/bin/Debug/net9.0/PrimeiroProjeto.pdb
+/home/gabe/UFT/LinguagemCSharp/PrimeiroProjeto/obj/Debug/net9.0/PrimeiroProjeto.GeneratedMSBuildEditorConfig.editorconfig
+/home/gabe/UFT/LinguagemCSharp/PrimeiroProjeto/obj/Debug/net9.0/PrimeiroProjeto.AssemblyInfoInputs.cache
+/home/gabe/UFT/LinguagemCSharp/PrimeiroProjeto/obj/Debug/net9.0/PrimeiroProjeto.AssemblyInfo.cs
+/home/gabe/UFT/LinguagemCSharp/PrimeiroProjeto/obj/Debug/net9.0/PrimeiroProjeto.csproj.CoreCompileInputs.cache
+/home/gabe/UFT/LinguagemCSharp/PrimeiroProjeto/obj/Debug/net9.0/PrimeiroProjeto.dll
+/home/gabe/UFT/LinguagemCSharp/PrimeiroProjeto/obj/Debug/net9.0/refint/PrimeiroProjeto.dll
+/home/gabe/UFT/LinguagemCSharp/PrimeiroProjeto/obj/Debug/net9.0/PrimeiroProjeto.pdb
+/home/gabe/UFT/LinguagemCSharp/PrimeiroProjeto/obj/Debug/net9.0/PrimeiroProjeto.genruntimeconfig.cache
+/home/gabe/UFT/LinguagemCSharp/PrimeiroProjeto/obj/Debug/net9.0/ref/PrimeiroProjeto.dll
