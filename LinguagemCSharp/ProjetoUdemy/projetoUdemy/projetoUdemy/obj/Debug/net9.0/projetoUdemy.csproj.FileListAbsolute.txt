@@ -1,0 +1,15 @@
+/home/gabe/UFT/LinguagemCSharp/ProjetoUdemy/projetoUdemy/projetoUdemy/bin/Debug/net9.0/projetoUdemy
+/home/gabe/UFT/LinguagemCSharp/ProjetoUdemy/projetoUdemy/projetoUdemy/bin/Debug/net9.0/projetoUdemy.deps.json
+/home/gabe/UFT/LinguagemCSharp/ProjetoUdemy/projetoUdemy/projetoUdemy/bin/Debug/net9.0/projetoUdemy.runtimeconfig.json
+/home/gabe/UFT/LinguagemCSharp/ProjetoUdemy/projetoUdemy/projetoUdemy/bin/Debug/net9.0/projetoUdemy.dll
+/home/gabe/UFT/LinguagemCSharp/ProjetoUdemy/projetoUdemy/projetoUdemy/bin/Debug/net9.0/projetoUdemy.pdb
+/home/gabe/UFT/LinguagemCSharp/ProjetoUdemy/projetoUdemy/projetoUdemy/obj/Debug/net9.0/projetoUdemy.GeneratedMSBuildEditorConfig.editorconfig
+/home/gabe/UFT/LinguagemCSharp/ProjetoUdemy/projetoUdemy/projetoUdemy/obj/Debug/net9.0/projetoUdemy.AssemblyInfoInputs.cache
+/home/gabe/UFT/LinguagemCSharp/ProjetoUdemy/projetoUdemy/projetoUdemy/obj/Debug/net9.0/projetoUdemy.AssemblyInfo.cs
+/home/gabe/UFT/LinguagemCSharp/ProjetoUdemy/projetoUdemy/projetoUdemy/obj/Debug/net9.0/projetoUdemy.csproj.CoreCompileInputs.cache
+/home/gabe/UFT/LinguagemCSharp/ProjetoUdemy/projetoUdemy/projetoUdemy/obj/Debug/net9.0/projetoUdemy.sourcelink.json
+/home/gabe/UFT/LinguagemCSharp/ProjetoUdemy/projetoUdemy/projetoUdemy/obj/Debug/net9.0/projetoUdemy.dll
+/home/gabe/UFT/LinguagemCSharp/ProjetoUdemy/projetoUdemy/projetoUdemy/obj/Debug/net9.0/refint/projetoUdemy.dll
+/home/gabe/UFT/LinguagemCSharp/ProjetoUdemy/projetoUdemy/projetoUdemy/obj/Debug/net9.0/projetoUdemy.pdb
+/home/gabe/UFT/LinguagemCSharp/ProjetoUdemy/projetoUdemy/projetoUdemy/obj/Debug/net9.0/projetoUdemy.genruntimeconfig.cache
+/home/gabe/UFT/LinguagemCSharp/ProjetoUdemy/projetoUdemy/projetoUdemy/obj/Debug/net9.0/ref/projetoUdemy.dll

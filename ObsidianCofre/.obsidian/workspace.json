@@ -1,0 +1,172 @@
+{
+  "main": {
+    "id": "f3a34b78fe07be87",
+    "type": "split",
+    "children": [
+      {
+        "id": "6dac5dcc99bcd498",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8822615c5089db5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SmashClone/Primeira Nota.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Primeira Nota"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "10da71c80658e727",
+    "type": "split",
+    "children": [
+      {
+        "id": "675c12820aeeb158",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4eedba0818f1f0c4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "57579bc191370f74",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "d0047102ca9447db",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "33843c21614768e4",
+    "type": "split",
+    "children": [
+      {
+        "id": "d406967514f01828",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4058811fba0d6e23",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SmashClone/Primeira Nota.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para Primeira Nota"
+            }
+          },
+          {
+            "id": "9637a0325a365bee",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "SmashClone/Primeira Nota.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para Primeira Nota"
+            }
+          },
+          {
+            "id": "991b06786c5c1cd3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "74f06fbd522c658b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SmashClone/Primeira Nota.md"
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de Primeira Nota"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "f8822615c5089db5",
+  "lastOpenFiles": [
+    "Sem título.canvas",
+    "SmashClone/Primeira Nota.md",
+    "2024-11-28.md",
+    "SmashClone"
+  ]
+}
