@@ -11,17 +11,19 @@
             "id": "f8822615c5089db5",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "kanban",
               "state": {
-                "file": "SmashClone/Canvas sem titulo.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
+                "file": "SmashClone/Kanban sem título.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false
+                  ]
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Canvas sem titulo"
+              "icon": "lucide-trello",
+              "title": "Kanban sem título"
             }
           }
         ]
@@ -91,69 +93,32 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4058811fba0d6e23",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "SmashClone/Canvas sem titulo.canvas",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Links inversos para Canvas sem titulo"
-            }
-          },
-          {
-            "id": "9637a0325a365bee",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "SmashClone/Canvas sem titulo.canvas",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Links de saída para Canvas sem titulo"
-            }
-          },
-          {
-            "id": "991b06786c5c1cd3",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
             "id": "74f06fbd522c658b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "SmashClone/Canvas sem titulo.canvas"
+                "file": "SmashClone/Kanban sem título.md"
               },
               "icon": "lucide-list",
-              "title": "Sumário de Canvas sem titulo"
+              "title": "Sumário de Kanban sem título"
+            }
+          },
+          {
+            "id": "6557102c73740eb1",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,12 +127,14 @@
       "canvas:Criar novo canvas": false,
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian-kanban:Criar um novo quadro": false
     }
   },
   "active": "f8822615c5089db5",
   "lastOpenFiles": [
     "SmashClone/Primeira Nota.md",
+    "SmashClone/Kanban sem título.md",
     "SmashClone/Canvas sem titulo.canvas",
     "2024-11-28.md",
     "SmashClone"
