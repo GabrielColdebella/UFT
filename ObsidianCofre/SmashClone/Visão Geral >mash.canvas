@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"8e3f88e415c94f38","type":"text","text":"# >mash","x":-255,"y":-180,"width":260,"height":60,"color":"1"},
+		{"id":"da30029f569d87a1","type":"text","text":"## Fases","x":480,"y":-180,"width":250,"height":60,"color":"1"},
+		{"id":"dcff7d6250776a87","type":"text","text":"## Personagens","x":-920,"y":-180,"width":250,"height":60,"color":"1"},
+		{"id":"70e80784ffdf8f7c","type":"text","text":"## Combos","x":-255,"y":80,"width":250,"height":60,"color":"1"},
+		{"id":"1562fd1306a539be","type":"text","text":"## Itens","x":160,"y":-20,"width":250,"height":60,"color":"1"},
+		{"id":"51fd50b0bb2a474a","type":"file","file":"SmashClone/Cards Canvas/Fases.md","x":405,"y":80,"width":400,"height":450,"color":"2"},
+		{"id":"8519077c95f19ece","type":"file","file":"SmashClone/Cards Canvas/Itens.md","x":80,"y":580,"width":400,"height":300,"color":"2"},
+		{"id":"4b21979b3f961b27","type":"file","file":"SmashClone/Cards Canvas/Combos.md","x":-255,"y":200,"width":495,"height":320,"color":"2"},
+		{"id":"b29f2cd07a331a9c","type":"text","text":"PENSAR:\n\nAssim como acontece no Injustice, as fases devem mudar?","x":-292,"y":-420,"width":325,"height":130}
+	],
+	"edges":[
+		{"id":"8bec8234fb20cde0","fromNode":"8e3f88e415c94f38","fromSide":"right","toNode":"da30029f569d87a1","toSide":"left"},
+		{"id":"8c975bf11f5ee754","fromNode":"8e3f88e415c94f38","fromSide":"left","toNode":"dcff7d6250776a87","toSide":"right"},
+		{"id":"76c30f874207a177","fromNode":"8e3f88e415c94f38","fromSide":"bottom","toNode":"70e80784ffdf8f7c","toSide":"top"},
+		{"id":"80a20336fc54a917","fromNode":"da30029f569d87a1","fromSide":"left","toNode":"1562fd1306a539be","toSide":"right"},
+		{"id":"2fef7b498387708b","fromNode":"70e80784ffdf8f7c","fromSide":"right","toNode":"1562fd1306a539be","toSide":"left"},
+		{"id":"e35d1a61b207f388","fromNode":"da30029f569d87a1","fromSide":"bottom","toNode":"51fd50b0bb2a474a","toSide":"top"},
+		{"id":"c5fa9ccffbee69da","fromNode":"1562fd1306a539be","fromSide":"bottom","toNode":"8519077c95f19ece","toSide":"top"},
+		{"id":"c9c6bc43f2b5c4b0","fromNode":"70e80784ffdf8f7c","fromSide":"right","toNode":"4b21979b3f961b27","toSide":"top"}
+	]
+}
