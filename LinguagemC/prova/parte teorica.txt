@@ -1,0 +1,51 @@
+Os candidatos à presidência são: 17 e 26. 
+Os candidatos ao governo são: 17, 26 e 31.
+
+
+Faça um programa que chama uma função que leia todos os dados das entrevistas e armazene-os na memória. 
+Em seguida à chamada da função, estes dados devem ser gravados em um arquivo em disco binário.
+
+
+Lembrando que faz parte da avaliação e desconta ponto:
+Usar variáveis globais, 
+percorrer dados inválidos ou desnecessariamente, 
+não inicializar variáveis contadoras e acumuladoras, 
+não fazer boa indentação
+
+
+- Separar por mês.
+- 3 meses.
+- Em média, 20 a 30 pessoas registradas por mês 
+
+
+Qual é seu candidato à Presidência?
+()17 ()26 ()branco ()indeciso
+
+Qual é seu candidato ao Governo do Estado?
+()17 ()26 ()31 ()branco ()indeciso
+
+Qual sua idade? _____
+
+Qual sua faixa salarial?
+()menos que 3 salários mínimos
+()de 3 a 5 salários mínimos
+()mais que 5 salários mínimos
+
+
+----------------------------------------------------------------------------------------
+1)
+    Pense na estrutura necessária para armazenar os dados das 
+    entrevistas na memória (vetor, matriz, struct). 
+    Escreva seu nome, tipos, tamanho e quais dados serão armazenados nela.
+
+
+
+----------------------------------------------------------------------------------------
+
+
+2)
+    Pense na função que registra os dados das entrevistas na memória.
+    Descreva o que faz esta função, descreva os parâmetros, diga se
+    cada parâmetro foi passado por valor ou por referência, descreva o
+    valor de retorno caso exista. Em seguida escreva o corpo desta
+    função em linguagem C.
