@@ -97,18 +97,35 @@ int main(){
 
     for (seletor1 = 0; seletor1 < qtdEntrevistas; seletor1++){
         printf("\n\nEleitor %d:", seletor1);
+        printf("\nCandidato presidencia: %d", seletorEstrutura.candidatoPresidenciaEscolhido[seletor1]);
+        printf("\nCandidato governador: %d", seletorEstrutura.candidatoGovernadorEscolhido[seletor1]);
+
         printf("\nIdade do eleitor: %d", seletorEstrutura.dadosEleitor[0][seletor1]);
         printf("\nFaixa salarial do eleitor: %d", seletorEstrutura.dadosEleitor[1][seletor1]);
         printf("\nMes da entrevista: %d", seletorEstrutura.dadosEleitor[2][seletor1]);
-
-        printf("\nCandidato presidencia: %d", seletorEstrutura.candidatoPresidenciaEscolhido[seletor1]);
-        printf("\nCandidato governador: %d", seletorEstrutura.candidatoGovernadorEscolhido[seletor1]);
     }
     
     
     FILE *fptr;
-    fptr = fopen("resultadoEntrevistas.txt", "wb");
-    // fwrite(&ini_cPresEscolhido[eleitorAtual], sizeof(int), 1, fptr);
+    char slash = '/';
+    fptr = fopen("prova_arquivo3.txt", "wb");
 
+    if (fptr == NULL) {
+        printf("Erro!!!!!");
+        exit(1);
+    }
+
+    for (seletor1 = 0; seletor1 < qtdEntrevistas; seletor1++){
+        fwrite(&seletorEstrutura.candidatoPresidenciaEscolhido[seletor1],sizeof(int), 1, fptr);
+        fwrite(&seletorEstrutura.candidatoGovernadorEscolhido[seletor1],sizeof(int), 1, fptr);
+
+        fwrite(&seletorEstrutura.dadosEleitor[0][seletor1],sizeof(int), 1, fptr);
+        fwrite(&seletorEstrutura.dadosEleitor[1][seletor1],sizeof(int), 1, fptr);
+        fwrite(&seletorEstrutura.dadosEleitor[2][seletor1],sizeof(int), 1, fptr);
+
+        fwrite(&slash, sizeof(char), 1, fptr);
+    }
+
+    fclose(fptr);
     return 0;
 }
