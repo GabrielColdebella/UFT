@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-#define qtdEntrevistas 1
+#define qtdEntrevistas 4
 
 void armazenarDadosEntrevista
     (
@@ -20,11 +20,11 @@ void armazenarDadosEntrevista
     do
     {
 
+        printf("\nMês: %d", mes + 1);
         do
         {
             condicaoEleger = true;
             printf("\n\nEleitor %d", eleitorAtual + 1);
-            printf("\nMês: %d", mes + 1);
             printf("\nOpções para presidência:\n\t[26] Candidato X\n\t[17] Candidato Y\n\t[1] Ainda não escolhi\n\t[0] Branco\nOpção: ");
             scanf(" %d", &sPresidente);
 
@@ -79,8 +79,8 @@ void armazenarDadosEntrevista
 }
 
 int main(){
-    int mes, eleitorAtual, seletor1;
-    struct structEntrevistas {
+    int mes, eleitorAtual, seletor1, qtdRegistros;
+    struct structEntrevistas{
         int candidatoPresidenciaEscolhido[qtdEntrevistas];
         int candidatoGovernadorEscolhido[qtdEntrevistas];
         int dadosEleitor[3][qtdEntrevistas];
@@ -103,29 +103,37 @@ int main(){
         printf("\nIdade do eleitor: %d", seletorEstrutura.dadosEleitor[0][seletor1]);
         printf("\nFaixa salarial do eleitor: %d", seletorEstrutura.dadosEleitor[1][seletor1]);
         printf("\nMes da entrevista: %d", seletorEstrutura.dadosEleitor[2][seletor1]);
+        
+        if (seletorEstrutura.dadosEleitor[0][seletor1 + 1]  == 0){
+            break;
+        }
+        
     }
     
     
     FILE *fptr;
-    char slash = '/';
-    fptr = fopen("prova_arquivo3.txt", "wb");
+    fptr = fopen("prova_arquivo3.bin", "wb");
 
     if (fptr == NULL) {
         printf("Erro!!!!!");
         exit(1);
     }
 
-    for (seletor1 = 0; seletor1 < qtdEntrevistas; seletor1++){
-        fwrite(&seletorEstrutura.candidatoPresidenciaEscolhido[seletor1],sizeof(int), 1, fptr);
-        fwrite(&seletorEstrutura.candidatoGovernadorEscolhido[seletor1],sizeof(int), 1, fptr);
+    qtdRegistros = seletor1;
+    int separador = 999;
+    fwrite(&qtdRegistros, sizeof(int), 1, fptr);
 
-        fwrite(&seletorEstrutura.dadosEleitor[0][seletor1],sizeof(int), 1, fptr);
-        fwrite(&seletorEstrutura.dadosEleitor[1][seletor1],sizeof(int), 1, fptr);
-        fwrite(&seletorEstrutura.dadosEleitor[2][seletor1],sizeof(int), 1, fptr);
+    fwrite(seletorEstrutura.candidatoPresidenciaEscolhido, sizeof(int), qtdRegistros, fptr);
+    fwrite(&separador, sizeof(int), 1, fptr);
+    fwrite(seletorEstrutura.candidatoGovernadorEscolhido, sizeof(int), qtdRegistros, fptr);
+    fwrite(&separador, sizeof(int), 1, fptr);
+    fwrite(seletorEstrutura.dadosEleitor[0], sizeof(int), qtdRegistros, fptr);
+    fwrite(&separador, sizeof(int), 1, fptr);
+    fwrite(seletorEstrutura.dadosEleitor[1], sizeof(int), qtdRegistros, fptr);
+    fwrite(&separador, sizeof(int), 1, fptr);
+    fwrite(seletorEstrutura.dadosEleitor[2], sizeof(int), qtdRegistros, fptr);
 
-        fwrite(&slash, sizeof(char), 1, fptr);
-    }
-
+    
     fclose(fptr);
     return 0;
 }
