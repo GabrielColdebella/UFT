@@ -102,7 +102,7 @@ int main(){
 
         printf("\nIdade do eleitor: %d", seletorEstrutura.dadosEleitor[0][seletor1]);
         printf("\nFaixa salarial do eleitor: %d", seletorEstrutura.dadosEleitor[1][seletor1]);
-        printf("\nMes da entrevista: %d", seletorEstrutura.dadosEleitor[2][seletor1]);
+        printf("\nMes da entrevista: %d", seletorEstrutura.dadosEleitor[2][seletor1] + 1);
         
         if (seletorEstrutura.dadosEleitor[0][seletor1 + 1]  == 0){
             break;
