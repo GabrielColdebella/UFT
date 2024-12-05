@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"44cf3ed5857f07e9","x":-560,"y":-140,"width":250,"height":60,"color":"2","type":"text","text":"## Objetos"},
+		{"id":"f7ebeebc4f4087f3","x":-560,"y":0,"width":250,"height":60,"color":"3","type":"text","text":"##### Pacote"},
+		{"id":"41a3579eec40ad53","type":"text","text":"##### Cliente","x":-560,"y":300,"width":250,"height":60,"color":"3"},
+		{"id":"c33aa01450e015a6","x":-575,"y":-380,"width":280,"height":60,"color":"1","type":"text","text":"# Delivery Game"}
+	],
+	"edges":[
+		{"id":"bf3a54a0c2359444","fromNode":"c33aa01450e015a6","fromSide":"bottom","toNode":"44cf3ed5857f07e9","toSide":"top"},
+		{"id":"1a224b035c6790d7","fromNode":"44cf3ed5857f07e9","fromSide":"bottom","toNode":"f7ebeebc4f4087f3","toSide":"top"},
+		{"id":"27d7f9b6a04e0168","fromNode":"f7ebeebc4f4087f3","fromSide":"bottom","toNode":"41a3579eec40ad53","toSide":"top"}
+	]
+}

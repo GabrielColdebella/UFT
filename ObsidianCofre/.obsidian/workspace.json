@@ -11,21 +11,17 @@
             "id": "8511637cbd0b6080",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "canvas",
               "state": {
-                "file": "SmashClone/Para fazer Smash.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
+                "file": "DriveGame/Planejamento.canvas",
+                "viewState": {
+                  "x": -160.343888612984,
+                  "y": 34.822022531844965,
+                  "zoom": -0.8
                 }
               },
-              "icon": "lucide-trello",
-              "title": "Para fazer Smash"
+              "icon": "lucide-layout-dashboard",
+              "title": "Planejamento"
             }
           }
         ]
@@ -84,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "33843c21614768e4",
@@ -100,10 +97,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SmashClone/Para fazer Smash.md"
+                "file": "DriveGame/Planejamento.canvas"
               },
               "icon": "lucide-list",
-              "title": "Sumário de Para fazer Smash"
+              "title": "Sumário de Planejamento"
             }
           },
           {
@@ -162,12 +159,12 @@
               "title": "Links de saída para Para fazer Smash"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,15 +177,17 @@
       "obsidian-kanban:Criar um novo quadro": false
     }
   },
-  "active": "4eedba0818f1f0c4",
+  "active": "8511637cbd0b6080",
   "lastOpenFiles": [
-    "LinguagemC/Files.md",
+    "DriveGame/Sem título.md",
+    "DriveGame/Planejamento.canvas",
     "SmashClone/Para fazer Smash.md",
+    "DriveGame",
+    "LinguagemC/Files.md",
     "LinguagemC/Struct.md",
     "SmashClone/Visão Geral >mash.canvas",
     "LinguagemC",
     "2024-11-28.md",
-    "Sem título.canvas",
     "SmashClone/Cards Canvas",
     "SmashClone/Cards Canvas/Combos.md",
     "SmashClone/Cards Canvas/Fases.md",
